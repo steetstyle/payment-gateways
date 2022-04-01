@@ -1,0 +1,10 @@
+{
+	"window.title": "FF Client App API ${separator}${activeEditorShort}",
+	"workbench.colorCustomizations": {
+		"titleBar.activeForeground": "#fff",
+		"titleBar.inactiveForeground": "#ffffffCC",
+		"titleBar.activeBackground": "#3729fa",
+		"titleBar.inactiveBackground": "#3729facc"
+	},
+	"eslint.lintTask.enable": true
+}

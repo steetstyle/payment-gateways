@@ -1,0 +1,45 @@
+{
+    "name": "@steetstyle/payment-gateways",
+    "version": "2.4.1",
+    "description": "Payment GATEWAY Apis",
+    "main": "dist/index.js",
+    "module": "esm/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "run-p build:cjs build:esm",
+        "build:cjs": "tsc",
+        "build:esm": "tsc -p tsconfig.esm.json",
+        "dev": "ts-node-dev --rs --respawn src/test.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/steetstyle/payment-gateways.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/steetstyle/payment-gateways/issues"
+    },
+    "homepage": "https://github.com/steetstyle/payment-gateways#readme",
+    "devDependencies": {
+        "@types/node": "^17.0.23",
+        "@types/node-fetch": "2.6.1",
+        "@types/react": "^17.0.43",
+        "@types/xml2js": "^0.4.9",
+        "@typescript-eslint/eslint-plugin": "^5.17.0",
+        "@typescript-eslint/parser": "^5.17.0",
+        "eslint": "^8.12.0",
+        "eslint-plugin-node": "^11.1.0",
+        "npm-run-all": "^4.1.5",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "@react-native-async-storage/async-storage": "^1.17.3",
+        "form-data": "^4.0.0",
+        "node-fetch": "2.6.2",
+        "react": "^18.0.0",
+        "xml2js": "^0.4.23"
+    }
+}
